@@ -1,0 +1,28 @@
+.RollDice-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.RollDice-die{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.RollDice-button{
+    width: 15em;
+    padding: 1.5em;
+    border: 1px;
+    border-radius: 10px;
+    margin-top: 3em;
+    justify-content: right;
+    color: white;
+    background-color: #64aebd;
+    border-color: #64aebd;
+    transition-duration: 0.4s;
+  }
+  
+.RollDice-button-effect {
+    background-color: white; 
+    color: #64aebd;
+  }
